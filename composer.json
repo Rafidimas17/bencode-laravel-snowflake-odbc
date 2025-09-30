@@ -1,0 +1,22 @@
+{
+  "name": "bencode/laravel-snowflake-odbc",
+  "description": "Snowflake ODBC driver for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Bencode\\SnowflakeOdbc\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/database": "^10.0|^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bencode\\SnowflakeOdbc\\SnowflakeOdbcServiceProvider"
+      ]
+    }
+  }
+}
