@@ -18,5 +18,8 @@
         "Bencode\\SnowflakeOdbc\\SnowflakeOdbcServiceProvider"
       ]
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
   }
 }

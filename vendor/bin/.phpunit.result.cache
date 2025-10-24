@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"SnowflakeOdbcDriverTest::test_can_create_driver_instance":0.002,"SnowflakeOdbcDriverTest::test_connect_success_or_fail_gracefully":1.089,"SnowflakeOdbcDriverTest::test_reconnect_logic_when_fail":1.001,"SnowflakeOdbcDriverTest::test_reconnect_ten_times_on_fail":4.503,"SnowflakeOdbcDriverTest::test_reconnect_after_disconnect":0.468}}

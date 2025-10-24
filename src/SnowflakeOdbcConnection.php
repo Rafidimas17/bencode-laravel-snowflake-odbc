@@ -13,7 +13,6 @@ class SnowflakeOdbcConnection extends Connection
         $this->odbcConnection = $odbcConn;
     }
 
-    // override select untuk QueryBuilder
     public function select($query, $bindings = [], $useReadPdo = true)
     {
         if (!$this->odbcConnection) {
