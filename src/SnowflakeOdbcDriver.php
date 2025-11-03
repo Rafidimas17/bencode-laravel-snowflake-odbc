@@ -40,7 +40,7 @@ class SnowflakeOdbcDriver extends Connector implements ConnectorInterface
         $attempt = 0;
 
         while ($attempt < $maxRetries) {
-            try {
+            try {                
                 $conn = odbc_connect($dsn, $username, $password);
                 
                 if (!$conn) {
